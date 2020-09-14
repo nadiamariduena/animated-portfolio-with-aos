@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import Data from "../data.json";
+import Data from "../data2.json";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -44,7 +44,7 @@ const GalleryImg = () => {
               <p data-aos="fade-down">{imgItem.city}</p>
               <img
                 data-aos="fade-down"
-                src={imgItem.img}
+                src={imgItem.img2}
                 className="img-box"
                 alt={imgItem.alt}
               />
